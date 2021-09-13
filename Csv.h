@@ -5,6 +5,8 @@
 #include <string>
 #include <vector>
 
+using namespace std;
+
 class Csv {
 public:
     /**
@@ -13,7 +15,7 @@ public:
      * @param delimiter Delimiter of the columns on the CSV file
      * @return Map containing the key value pairs
      */
-    static std::vector <std::map<std::string, std::string>> read(const std::string& file, char delimiter);
+    static vector <map<string, string>> read(const string& file, char delimiter);
 };
 
 
